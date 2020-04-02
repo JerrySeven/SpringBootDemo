@@ -75,4 +75,23 @@
         </plugins>
     </build>
 
+    <!--<profiles>
+        &lt;!&ndash;开发环境，默认&ndash;&gt;
+        <profile>
+            <id>dev</id>
+            <properties>
+                <build.profile.id>dev</build.profile.id>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        &lt;!&ndash;测试环境&ndash;&gt;
+        <profile>
+            <id>test</id>
+            <properties>
+                <build.profile.id>test</build.profile.id>
+            </properties>
+        </profile>
+    </profiles>-->
 </project>
