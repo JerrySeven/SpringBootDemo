@@ -1,7 +1,5 @@
 package cn.lemon.boot;
 
-import ch.qos.logback.core.net.SyslogOutputStream;
-import cn.lemon.boot.dao.StudentDao;
 import cn.lemon.boot.dto.StudentDto;
 import cn.lemon.boot.service.StudentService;
 import org.junit.Test;
@@ -30,15 +28,17 @@ public class BootApplicationTests {
         System.out.println(studentDto.toString());
     }
 
-    /**测试redis写入功能*/
+/*    测试redis写入功能*/
     @Test
     public void testRedisAdd(){
         redisTemplate.opsForValue().set("name","Lemon");
     }
-    /**测试redis的get功能*/
+    /*测试redis的get功能*/
     @Test
     public void testRedisGet(){
         Object name = redisTemplate.opsForValue().get("name");
         System.out.println("得到redis的值：" + name);
     }
+
+
 }
