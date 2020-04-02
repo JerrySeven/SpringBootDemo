@@ -75,8 +75,8 @@
         </plugins>
     </build>
 
-    <!--<profiles>
-        &lt;!&ndash;开发环境，默认&ndash;&gt;
+    <profiles>
+        <!--开发环境，默认-->
         <profile>
             <id>dev</id>
             <properties>
@@ -86,12 +86,12 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
         </profile>
-        &lt;!&ndash;测试环境&ndash;&gt;
+        <!--测试环境-->
         <profile>
             <id>test</id>
             <properties>
                 <build.profile.id>test</build.profile.id>
             </properties>
         </profile>
-    </profiles>-->
+    </profiles>
 </project>
