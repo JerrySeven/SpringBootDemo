@@ -8,8 +8,8 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Aspect
-@Component
+@Aspect //声明该类为切面类
+@Component //将类放入容器中
 public class CheckUserAspect {
 
     @Autowired

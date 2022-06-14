@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed2decc-585e-4f12-b904-10a8f75556e2" name="Default Changelist" comment="springboot使用外部tomcat部署及简单的log日志配置">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lemon/boot/BootApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lemon/boot/dao/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lemon/boot/dto/StudentDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lemon/boot/service/Impl/StudentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lemon/boot/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lemon/boot/web/FreeMarkController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lemon/boot/web/HotspotController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lemon/boot/web/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/freemark.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/lemon/boot/BootApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -63,15 +54,14 @@
         <option name="userSettingsFile" value="D:\Work\WorkFile\SoftWare\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1ZvlgvyV0OKHdwBD90xKrXLlPmE" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -80,7 +70,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,23 +79,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work\WorkSpaces\practice\SpringBootDemo\src\main\resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BootApplication">
     <configuration name="BootApplicationTests.testRedisAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -168,6 +148,13 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="AopDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aop-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.lemon.aopdemo.AopDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springbootdemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.lemon.boot.BootApplication" />
@@ -181,6 +168,7 @@
       <item itemvalue="JUnit.BootApplicationTests.testRedisGet" />
       <item itemvalue="Maven.boot-dev" />
       <item itemvalue="Spring Boot.BootApplication" />
+      <item itemvalue="Spring Boot.AopDemoApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -191,6 +179,10 @@
         <item itemvalue="JUnit.BootApplicationTests.testRedisGet" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -207,6 +199,8 @@
       <workItem from="1585796790381" duration="531000" />
       <workItem from="1585812149488" duration="2913000" />
       <workItem from="1586226139272" duration="179000" />
+      <workItem from="1646406393149" duration="63000" />
+      <workItem from="1646469992270" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="springboot添加redis配置，并编写简单的测试类">
       <created>1585730042899</created>
@@ -247,7 +241,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -266,7 +260,6 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
